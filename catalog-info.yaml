@@ -33,3 +33,4 @@ spec:
   lifecycle: production
   owner: Tegar Imansyah
   system: tegar-org
+  dependsOn: ['resource:universe-db']
