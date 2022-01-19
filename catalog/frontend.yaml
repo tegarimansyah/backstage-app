@@ -19,7 +19,7 @@ metadata:
 spec:
   type: website
   lifecycle: production
-  owner: Tegar Imansyah
+  owner: sepulsa-team
   system: sepulsa
   dependsOn: 
     - 'resource:sepulsa-assets'
@@ -36,3 +36,4 @@ metadata:
 spec:
   type: s3-bucket
   system: sepulsa
+  owner: sepulsa-team

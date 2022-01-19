@@ -22,7 +22,7 @@ metadata:
 spec:
   type: website
   lifecycle: production
-  owner: Tegar Imansyah
+  owner: sepulsa-team
   system: sepulsa
   dependsOn: 
     - 'resource:sepulsa-db'
@@ -40,7 +40,7 @@ metadata:
 spec:
   type: database
   system: sepulsa
-
+  owner: sepulsa-team
 ---
 
 apiVersion: backstage.io/v1alpha1
@@ -51,3 +51,4 @@ metadata:
 spec:
   type: database
   system: sepulsa
+  owner: sepulsa-team
