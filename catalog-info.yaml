@@ -7,3 +7,4 @@ spec:
     targets:
         - ./catalog/frontend.yaml
         - ./catalog/backend.yaml
+        - ./catalog/api.yaml
