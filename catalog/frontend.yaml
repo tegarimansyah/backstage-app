@@ -1,11 +1,10 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Sepulsa Frontend
+  name: sepulsa-frontend
   description: A Frontend for Sepulsa
   tags:
-    - java
-    - data
+    - javascript
   links:
     - url: https://example.com/web
       title: Website

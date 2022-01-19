@@ -1,18 +1,11 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Sepulsa Frontend
-  description: A Frontend for Sepulsa
+  name: sepulsa-backend
+  description: A backend for Sepulsa
   tags:
-    - java
-    - data
+    - golang
   links:
-    - url: https://example.com/web
-      title: Website
-      icon: web
-    - url: https://example.com/admin
-      title: Admin page
-      icon: user
     - url: https://example.com/dashboard
       title: Observability Dashboard
       icon: dashboard
@@ -20,7 +13,7 @@ metadata:
       title: GitHub Repo
       icon: github
 spec:
-  type: website
+  type: service
   lifecycle: production
   owner: sepulsa-team
   system: sepulsa
