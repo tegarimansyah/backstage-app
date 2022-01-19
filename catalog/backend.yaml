@@ -20,7 +20,7 @@ spec:
   dependsOn: 
     - 'resource:sepulsa-db'
     - 'resource:sepulsa-cache'
-  providesAPIs:
+  providesApis:
     - sepulsa-api
 
 ---
