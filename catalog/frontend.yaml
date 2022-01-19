@@ -1,0 +1,38 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Sepulsa Frontend
+  description: A Frontend for Sepulsa
+  tags:
+    - java
+    - data
+  links:
+    - url: https://example.com/web
+      title: Website
+      icon: web
+    - url: https://example.com/admin
+      title: Admin page
+      icon: user
+    - url: https://example.com/dashboard
+      title: Observability Dashboard
+      icon: dashboard
+spec:
+  type: website
+  lifecycle: production
+  owner: Tegar Imansyah
+  system: sepulsa
+  dependsOn: 
+    - 'resource:sepulsa-assets'
+  consumesApis: 
+    - sepulsa-api
+
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: sepulsa-assets
+  description: Stores assets in S3
+spec:
+  type: s3-bucket
+  system: sepulsa
