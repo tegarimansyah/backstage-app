@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: sepulsa-api
+  description: The official Sepulsa REST API
+spec:
+  type: openapi
+  lifecycle: production
+  owner: sepulsa-team
+  definition:
+    # learn more https://backstage.io/docs/conf/writing#file-includes
+    $text: ../docs/swagger.yaml
